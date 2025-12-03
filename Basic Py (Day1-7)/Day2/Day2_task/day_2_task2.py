@@ -1,0 +1,20 @@
+#2.Input two numbers from user and perform all the arithmetic operations on them
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("\nResults:")
+print(f"{num1} + {num2} = {num1 + num2}")
+print(f"{num1} - {num2} = {num1 - num2}")
+print(f"{num1} * {num2} = {num1 * num2}")
+print(f"{num1} / {num2} = {num1 / num2}")
+print(f"{num1} % {num2} = {num1 % num2}")
+print(f"{num1} ** {num2} = {num1 ** num2}")
+print(f"{num1} // {num2} = {num1 // num2}")
+print(f"abs({num1}) = {abs(num1)}")
+print(f"abs({num2}) = {abs(num2)}")
+print(f"round({num1}) = {round(num1)}")
+print(f"round({num2}) = {round(num2)}")
+print(f"pow({num1}, {num2}) = {pow(num1, num2)}")
+print(f"max({num1}, {num2}) = {max(num1, num2)}")
+print(f"min({num1}, {num2}) = {min(num1, num2)}")
