@@ -1,0 +1,26 @@
+Filter - SYNTAX : filtered_array = array[condition]
+NumPy where() - SYNTAX : np.where(condition, value_if_true, value_if_false)
+NumPy any() - SYNTAX : np.any(condition)
+NumPy all() - SYNTAX : np.all(condition)
+NumPy stack() - SYNTAX : np.stack((array1, array2, ...), axis=0)
+NumPy sum() / mean() - SYNTAX : np.sum(array, axis=None), np.mean(array, axis=None)
+NumPy Masked Array - SYNTAX : masked_array = np.ma.array(data, mask=condition)
+NumPy flatten() - SYNTAX : array.flatten()
+
+
+
+Summary:
+
+Filter → Select values by condition.
+
+np.where → Conditional choice.
+
+np.any / np.all → Check conditions.
+
+np.stack → Combine arrays.
+
+np.sum / np.mean → Aggregate values.
+
+Masked Array → Ignore invalid/missing values.
+
+flatten → Convert to 1D.

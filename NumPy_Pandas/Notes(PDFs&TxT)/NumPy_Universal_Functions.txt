@@ -1,0 +1,7 @@
+NumPy Universal Functions
+
+- Arithmentic functions like add(), subtract() and multiply()
+
+- Trigonometric functions like sin(), cos() and tan()
+
+- Aggregation functions like mean(), min() and max()
