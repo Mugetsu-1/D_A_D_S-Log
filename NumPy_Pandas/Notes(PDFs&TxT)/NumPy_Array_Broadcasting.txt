@@ -1,0 +1,36 @@
+Array Broadcasting – SYNTAX and Summary
+
+SYNTAX:
+Result = array1 ⊕ array2
+(⊕ = any element-wise operation: +, –, *, /, **, etc.)
+Broadcasting applies when shapes are compatible.
+
+Broadcasting Rules:
+
+1. Compare shapes from right to left.
+2. Dimensions match if they are equal or one of them is 1.
+3. If compatible, NumPy virtually expands the smaller array.
+
+Examples:
+A + B
+• A shape: (3, 1)
+• B shape: (1, 4)
+Broadcast result shape: (3, 4)
+
+Common Broadcasting Patterns:
+
+1. Scalar broadcast
+   SYNTAX: array + scalar
+
+2. Row/column broadcast
+   SYNTAX: array + row_vector
+   SYNTAX: array + column_vector
+
+3. Dimension expansion for broadcast
+   SYNTAX: array[:, np.newaxis]
+   SYNTAX: array[np.newaxis, :]
+
+Summary:
+
+Array Broadcasting → Automatically expands smaller arrays to match larger ones for element-wise operations.
+Used for → Fast math, vectorization, avoiding loops and copies.
