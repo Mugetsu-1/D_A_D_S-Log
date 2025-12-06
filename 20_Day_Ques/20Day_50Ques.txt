@@ -1,0 +1,99 @@
+1. Write a Python program to find all duplicate elements in a list.
+
+2. Write a program to count the frequency of each character in a string.
+
+3. Reverse a given string without using slicing or built-in functions.
+
+4. Find the second largest number in a list.
+
+5. Merge two dictionaries and sum the values of common keys.
+
+6. Write a program to remove all occurrences of a given element from a list.
+
+7. Check if two strings are anagrams of each other.
+
+8. Write a program to find the intersection of two lists.
+
+9. Implement a function to flatten a nested list.
+
+10. Write a function to check if a given number is an Armstrong number.
+
+11. Write a program to count vowels and consonants in a string.
+
+12. Generate a Fibonacci sequence up to n terms using recursion.
+
+13. Find all pairs in a list that sum to a given target value.
+
+14. Write a program to check if a string is a palindrome.
+
+15. Implement a simple calculator using functions.
+
+16. Write a function to find the factorial of a number using recursion.
+
+17. Sort a list of tuples based on the second element in each tuple.
+
+18. Write a program to find the most frequent element in a list.
+
+19. Implement a program to remove punctuation from a given string.
+
+20. Write a program to get the top 3 highest values from a dictionary.
+
+21. Find all unique combinations of elements in a list of numbers.
+
+22. Write a program to find common characters between two strings.
+
+23. Write a Python program to check if a number is prime.
+
+24. Write a function to count how many words in a sentence start with a vowel.
+
+25. Implement a program to rotate a list by k positions.
+
+26. Write a function to find the longest word in a sentence.
+
+27. Find the difference between two lists (elements not common).
+
+28. Write a program to generate a random password of given length.
+
+29. Write a Python function to calculate the sum of digits of a number.
+
+30. Implement a simple class BankAccount with methods to deposit, withdraw, and display balance.
+
+31. Create a 1D NumPy array of 10 zeros and replace the fifth element with 1.
+
+32. Create a NumPy array with values from 10 to 50.
+
+33. Generate a 3×3 identity matrix.
+
+34. Create a NumPy array of random integers between 1 and 100 of shape (4,4).
+
+35. Find the mean, median, and standard deviation of a NumPy array.
+
+36. Create a 1D array and reshape it into a 3×3 matrix.
+
+37. Stack two NumPy arrays horizontally and vertically.
+
+38. Replace all odd numbers in a NumPy array with -1.
+
+39. Get the positions of all even numbers in a NumPy array.
+
+40. Create two arrays and find their dot product.
+
+41. Normalize a NumPy array (so that its mean = 0 and std = 1).
+
+42. Write a program to multiply two matrices element-wise.
+
+43. Find the maximum and minimum element in a NumPy array and their indices.
+
+44. Create a NumPy array of shape (5,5) and set its border elements to 1 and inner elements to 0.
+
+45. Create an array from a list and filter all elements greater than the average.
+
+46. Write a NumPy program to find the row-wise and column-wise sum of a 2D array.
+
+47. Generate a 4x4 matrix with random values and replace the maximum element with 0.
+
+48. Write a program to find unique elements and their counts in a NumPy array.
+
+49. Flatten a 2D NumPy array without using .flatten().
+
+50. Create a 5x5 array with values from 0 to 24 and extract the diagonal elements.
