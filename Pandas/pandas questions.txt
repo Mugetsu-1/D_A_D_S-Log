@@ -1,0 +1,173 @@
+1. DataFrame & Series Creation
+
+pd.DataFrame()
+
+pd.Series()
+
+pd.read_csv(), pd.to_csv()
+
+pd.read_excel(), pd.to_excel()
+
+pd.read_json(), pd.to_json()
+
+pd.read_sql()
+
+pd.read_html()
+
+
+
+2. Information & Inspection
+
+df.head(), df.tail()
+
+df.info()
+
+df.describe()
+
+df.shape
+
+df.columns, df.index
+
+df.dtypes
+
+df.memory_usage()
+
+df.isna(), df.notna()
+
+df.value_counts()
+
+
+
+3. Selection & Indexing
+
+df['col'], df[['col1','col2']]
+
+df.loc[], df.iloc[]
+
+df.at[], df.iat[]
+
+df.filter()
+
+df.query()
+
+
+
+4. Data Cleaning
+
+df.dropna(), df.fillna()
+
+df.drop()
+
+df.replace()
+
+df.rename()
+
+df.duplicated(), df.drop_duplicates()
+
+df.astype()
+
+
+
+5. Operations & Statistics
+
+df.mean(), df.median(), df.mode()
+
+df.min(), df.max()
+
+df.sum(), df.cumsum()
+
+df.count()
+
+df.var(), df.std()
+
+df.corr(), df.cov()
+
+6. Sorting & Ranking
+
+df.sort_values()
+
+df.sort_index()
+
+df.rank()
+
+
+
+7. Aggregation & Grouping
+
+df.groupby()
+
+df.agg()
+
+df.aggregate()
+
+df.pivot_table()
+
+df.crosstab()
+
+
+
+8. Merging & Joining
+
+pd.concat()
+
+pd.merge()
+
+df.join()
+
+
+
+9. Reshaping
+
+df.melt()
+
+df.pivot()
+
+df.stack()
+
+df.unstack()
+
+df.transpose()
+
+
+
+10. Date/Time
+
+pd.to_datetime()
+
+df.dt.year, df.dt.month, df.dt.day
+
+df.resample()
+
+
+
+11. Visualization
+
+df.plot()
+
+df.hist()
+
+df.boxplot()
+
+These are the most used Pandas methods (there are 1000+ in total if we go deep into extensions).
+
+10 Pandas Basics Questions
+
+Create a Pandas DataFrame from a dictionary of lists.
+
+Read a CSV file into a DataFrame and display the first 5 rows.
+
+Get the number of rows and columns of a DataFrame.
+
+Display all column names and their data types.
+
+Select a single column ('Name') and multiple columns ('Name', 'Age') from a DataFrame.
+
+Select the first 3 rows using iloc.
+
+Find missing values in a DataFrame.
+
+Replace all NaN values with "Unknown".
+
+Sort the DataFrame by the 'Age' column in descending order.
+
+Group the DataFrame by 'Department' and calculate the average salary.
