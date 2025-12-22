@@ -1,0 +1,151 @@
+1. Basic Plotting
+
+plt.plot(x, y, ...) → Line plot
+
+Attributes:
+
+color / c → line color ('r', 'b', 'g', '#hex')
+
+linestyle / ls → '-', '--', ':', '-.'
+
+linewidth / lw → thickness of line
+
+marker → 'o', 's', '*', 'D'
+
+label → label for legend
+
+alpha → transparency (0 to 1)
+
+plt.scatter(x, y, ...) → Scatter plot
+
+Attributes:
+
+c → color
+
+s → size
+
+marker → symbol
+
+alpha → transparency
+
+edgecolor → edge color
+
+
+
+plt.bar(x, height, ...) → Bar chart
+
+Attributes:
+
+width → bar width
+
+align → 'center' or 'edge'
+
+color
+
+edgecolor
+
+
+
+plt.barh(y, width, ...) → Horizontal bar chart
+
+plt.hist(data, bins, ...) → Histogram
+
+Attributes:
+
+bins → number of bins
+
+color
+
+alpha
+
+edgecolor
+
+
+
+plt.boxplot(data, ...) → Box and whisker plot
+
+plt.pie(data, ...) → Pie chart
+
+Attributes:
+
+labels
+
+colors
+
+autopct → '%1.1f%%'
+
+explode
+
+shadow
+
+
+
+2. Figure & Axis
+
+plt.figure(figsize=(w,h)) → Create new figure
+
+plt.subplot(nrows, ncols, index) → Add subplot
+
+plt.subplots(nrows, ncols, figsize) → Create multiple axes
+
+plt.axis([xmin, xmax, ymin, ymax]) → Set axis limits
+
+plt.xlim() / plt.ylim() → Set x/y axis limits
+
+plt.xticks() / plt.yticks() → Set ticks
+
+plt.tick_params() → Customize ticks
+
+
+
+3. Labels & Titles
+
+plt.xlabel('label')
+
+plt.ylabel('label')
+
+plt.title('title', fontsize, color)
+
+plt.legend(loc='best')
+
+plt.grid(True, linestyle, color, alpha)
+
+
+
+4. Styling
+
+Colors: 'r', 'g', 'b', 'c', 'm', 'y', 'k', 'w' or hex '#FF5733'
+
+Markers: 'o', 's', '^', '*', 'D', '+'
+
+Line Styles: '-', '--', ':', '-.'
+
+
+
+5. Save & Show
+
+plt.savefig('filename.png', dpi=300, bbox_inches='tight')
+
+plt.show()
+
+10 Basic Questions on Matplotlib
+
+How do you plot a simple line graph using Matplotlib?
+
+What is the difference between plt.plot() and plt.scatter()?
+
+How do you change the line color and style in a line plot?
+
+How can you set the x-axis and y-axis labels?
+
+Which function is used to create histograms?
+
+How do you add a legend to a plot?
+
+What does the alpha parameter control?
+
+How do you plot multiple subplots in the same figure?
+
+What is the difference between plt.bar() and plt.barh()?
+
+How do you save a Matplotlib figure as an image?

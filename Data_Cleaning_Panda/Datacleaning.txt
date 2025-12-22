@@ -1,0 +1,19 @@
+df_clean = pd.DataFrame (df_nan['Age'].fillna(df_nan['Age'].median()) )
+
+df_concat = pd.merge(df_clean, df_nan['Score'].fillna(df_nan['Score'].mean()), how='outer', on=df_nan['Name'])
+
+print(df_concat)
+
+
+
+
+# Clean both columns in the original dataframe
+
+df_nan['Age'] = df_nan['Age'].fillna(df_nan['Age'].median())
+df_nan['Score'] = df_nan['Score'].fillna(df_nan['Score'].mean())
+
+# Or if you want to keep original and create cleaned version
+
+df_clean = df_nan.copy()
+df_clean['Age'] = df_clean['Age'].fillna(df_clean['Age'].median())
+df_clean['Score'] = df_clean['Score'].fillna(df_clean['Score'].mean())
