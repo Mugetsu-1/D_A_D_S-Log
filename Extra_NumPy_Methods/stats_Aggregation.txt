@@ -1,0 +1,25 @@
+Statistical & Aggregate Functions
+
+
+
+np.sum()
+
+np.mean()
+
+np.median()
+
+np.std()
+
+np.var()
+
+np.min(), np.max()
+
+np.argmin(), np.argmax()
+
+np.cumsum(), np.cumprod()
+
+np.percentile()
+
+np.corrcoef()
+
+np.histogram()

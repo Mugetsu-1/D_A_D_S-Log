@@ -1,0 +1,21 @@
+Linear Algebra
+
+
+
+np.dot()
+
+np.vdot()
+
+np.inner(), np.outer()
+
+np.matmul() (@ operator)
+
+np.linalg.inv() → inverse
+
+np.linalg.det() → determinant
+
+np.linalg.eig() → eigenvalues/eigenvectors
+
+np.linalg.svd() → singular value decomposition
+
+np.linalg.norm()

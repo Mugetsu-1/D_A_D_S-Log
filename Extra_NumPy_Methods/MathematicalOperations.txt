@@ -1,0 +1,19 @@
+Mathematical Operations
+
+
+
+np.add(), np.subtract(), np.multiply(), np.divide(), np.power()
+
+np.mod(), np.remainder()
+
+np.exp(), np.log(), np.log10()
+
+np.sqrt()
+
+np.sin(), np.cos(), np.tan()
+
+np.arcsin(), np.arccos(), np.arctan()
+
+np.deg2rad(), np.rad2deg()
+
+np.floor(), np.ceil(), np.round()

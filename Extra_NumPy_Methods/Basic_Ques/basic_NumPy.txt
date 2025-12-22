@@ -1,0 +1,24 @@
+10 NumPy Basics Questions
+
+
+Here are beginner-friendly questions:
+
+Create a NumPy array of numbers from 10 to 50.
+
+Generate a 3×3 identity matrix.
+
+Create a NumPy array of 10 random integers between 1 and 100.
+
+Find the maximum and minimum of an array.
+
+Reshape a 1D array of 12 elements into a 3×4 matrix.
+
+Create an array of all even numbers between 50 and 100.
+
+Given an array [1,2,3,4,5], compute the square of each element.
+
+Create a 5×5 array of random numbers and find its mean.
+
+Find the index of the maximum element in [10, 20, 50, 40, 30].
+
+Create two arrays and perform element-wise addition, subtraction, multiplication, and division.

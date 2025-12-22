@@ -1,0 +1,16 @@
+Array Inspection Mthods
+
+
+
+.ndim → number of dimensions
+
+.shape → dimensions (rows, cols)
+
+.size → number of elements
+
+.dtype → data type of array
+
+.itemsize → size of each element in bytes
+
+.nbytes → total bytes consumed
+

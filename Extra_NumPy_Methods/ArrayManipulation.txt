@@ -1,0 +1,29 @@
+Array Manipulation Methods
+
+
+
+np.reshape()
+
+np.resize()
+
+np.ravel()
+
+.flatten()
+
+np.transpose() / .T
+
+np.swapaxes()
+
+np.expand_dims()
+
+np.squeeze()
+
+np.concatenate()
+
+np.vstack()
+
+np.hstack()
+
+np.split()
+
+np.array_split()

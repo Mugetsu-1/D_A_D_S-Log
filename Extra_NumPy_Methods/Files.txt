@@ -1,0 +1,20 @@
+File I/O
+
+
+
+
+np.loadtxt()
+
+np.savetxt()
+
+np.genfromtxt()
+
+np.save()
+
+np.load()
+
+np.savez()
+
+np.fromfile()
+
+np.tofile()
