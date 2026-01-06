@@ -1,0 +1,57 @@
+Challenges
+
+Q) We want to send out a promotional email to our existing 
+customers!
+Hint: For solving this challenge we need to know name and email 
+of the customers
+Use a SELECT statement to grab the first and last names of every 
+customer and their email address.
+Use the customer table.
+You can use the table drop-down to view what columns are 
+available.
+You could also use SELECT * FROM customer to see all the 
+columns
+
+
+
+Challenges
+Q) Use what we have learned about DISTINCT to retrieve 
+the different rating types our films could have
+in our database.
+Hint:
+Use the film table.
+You can use the table drop-down to view what columns are 
+available.
+You could also use SELECT * FROM films to see all the 
+columns
+
+
+
+-- SELECT column_name FROM table_name
+-- SELECT column_name1, column_name2, column_name3 FROM table_name
+-- SELECT * FROM table_name
+-- WHERE keyword is used to select data with condition
+
+-- SELECT *
+-- FROM customer
+-- WHERE first_name = 'Erica';
+
+-- SELECT DISTINCT rating,rental_rate
+-- FROM film;
+
+-- SELECT COUNT(title)
+-- FROM film;
+
+-- SELECT *
+-- FROM film
+-- WHERE NOT rental_duration = 5
+
+-- SELECT email 
+-- FROM customer 
+-- WHERE first_name = 'Nancy' AND last_name = 'Thomas';
+
+-- SELECT customer_id
+-- FROM payment
+-- WHERE amount > 5
+-- ORDER BY customer_id DESC
+-- LIMIT 10;
